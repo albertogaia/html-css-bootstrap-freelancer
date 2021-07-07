@@ -15,8 +15,15 @@ header {height: 80px;}
 
 /* FINE HEADER */
 
-
 /* MAIN */
+
+.jumbotron {padding: 50px;}
+
+#my__avatar {width: 40%; height: 200px;}
+
+#my__name {margin: 15px auto;}
+
+#my__divider {width: 150px; margin-bottom: 15px;}
 
 /* FINE MAIN */
 
@@ -32,3 +39,7 @@ header {height: 80px;}
 .debug .row {height: 100%;}
 .debug #nav__logo {background-color: orange; border: 1px solid black;}
 .debug #nav__links {background-color: grey; border: 1px solid black;}
+.debug .jumbotron {min-height: 20vh; background-color: rgb(76, 175, 134);}
+.debug #my__avatar {background:indigo;}
+.debug #my__divider {height: 10px; background: khaki;}
+.debug #my__description {width: 100%; height: 30px; background-color: lightgray;}
