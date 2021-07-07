@@ -8,7 +8,9 @@ body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 /* COMMON */
 section {padding: 50px 0px;}
+section h2 {text-transform: uppercase;}
 .my__color__green {background-color: #19bc9c; color: white;}
+.my__divider {width: 150px; margin: 15px auto; opacity: 1;}
 
 /* FINE COMMON */
 
@@ -20,13 +22,25 @@ header {min-height: 80px;}
 /* MAIN */
 #my__avatar {width: 40%; height: 200px;}
 
-#my__divider {width: 150px; margin: 15px auto;}
+#about .container,
+#contact .container {width: 70%;}
 
 .portfolio__single {padding: 10px;}
 
 .portfolio__single img {width: 100%; height: 100%;}
 
-#about .my__btnDownload {margin-top: 15px;}
+#about 
+.my__btnDownload {margin-top: 15px;}
+
+.my__form {margin-top: 20px;}
+
+.my__form .my__formControl {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+}
+
 
 /* FINE MAIN */
 
@@ -44,7 +58,8 @@ header {min-height: 80px;}
 .debug #nav__links {background-color: grey; border: 1px solid black;}
 .debug #jumbotron {min-height: 20vh; }
 .debug #my__avatar {background:indigo;}
-.debug #my__divider {height: 10px; background: khaki;}
+.debug .my__divider {height: 10px; background: black;}
 .debug #my__description {width: 100%; height: 30px; background-color: lightgray;}
 .debug .portfolio__single {height: 50vh; border: 1px solid black;}
 .debug .portfolio__single img {background-color: lightgreen; }
+.debug .my__form {height: 500px; background: lightpink;}
