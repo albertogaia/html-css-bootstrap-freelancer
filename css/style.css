@@ -10,8 +10,8 @@ body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 /* FINE COMMON */
 
-
 /* HEADER */
+header {height: 80px;}
 
 /* FINE HEADER */
 
@@ -27,3 +27,8 @@ body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 
 /* DEBUG ZONE */
+.debug header {background: teal;}
+.debug .container {height: 100%;}
+.debug .row {height: 100%;}
+.debug #nav__logo {background-color: orange; border: 1px solid black;}
+.debug #nav__links {background-color: grey; border: 1px solid black;}
