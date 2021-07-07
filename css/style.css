@@ -7,23 +7,23 @@
 body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 /* COMMON */
+section {padding: 50px 0px;}
 
 /* FINE COMMON */
 
 /* HEADER */
-header {height: 80px;}
+header {min-height: 80px;}
 
 /* FINE HEADER */
 
 /* MAIN */
-
-.jumbotron {padding: 50px;}
-
 #my__avatar {width: 40%; height: 200px;}
 
-#my__name {margin: 15px auto;}
+#my__divider {width: 150px; margin: 15px auto;}
 
-#my__divider {width: 150px; margin-bottom: 15px;}
+.portfolio__single {padding: 10px;}
+
+.portfolio__single img {width: 100%; height: 100%;}
 
 /* FINE MAIN */
 
@@ -36,10 +36,12 @@ header {height: 80px;}
 /* DEBUG ZONE */
 .debug header {background: teal;}
 .debug .container {height: 100%;}
-.debug .row {height: 100%;}
+/* .debug .row {height: 100%;} */
 .debug #nav__logo {background-color: orange; border: 1px solid black;}
 .debug #nav__links {background-color: grey; border: 1px solid black;}
-.debug .jumbotron {min-height: 20vh; background-color: rgb(76, 175, 134);}
+.debug #jumbotron {min-height: 20vh; background-color: rgb(76, 175, 134);}
 .debug #my__avatar {background:indigo;}
 .debug #my__divider {height: 10px; background: khaki;}
 .debug #my__description {width: 100%; height: 30px; background-color: lightgray;}
+.debug .portfolio__single {height: 50vh; border: 1px solid black;}
+.debug .portfolio__single img {background-color: lightgreen; }
