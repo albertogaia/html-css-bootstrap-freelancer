@@ -17,7 +17,6 @@ section h2 {text-transform: uppercase;}
 .my__white {color: white;}
 .my__icons {width: 40px; height: 40px; border-radius: 50%; border:1px solid white; cursor: pointer;}
 .my__icons:hover {background: #2c3e5081;}
-.my__hr {height: 5px; border-radius: 10px;}
 .my__credits {color:limegreen; cursor:pointer;}
 
 .my__star2--black::after, .my__star2--black::before {
