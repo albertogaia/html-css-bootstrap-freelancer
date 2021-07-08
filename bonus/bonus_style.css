@@ -1,0 +1,20 @@
+/* CSS BONUS */
+
+header {height: 80px;}
+.my__navMenu {display: none; width: 100%; right: 0; background: #2C3E50;}
+.my__navMenu .my__navLink {display: block; text-align: end;}
+.my__navMenu .my__navLink:hover {background: #3e4f61;;}
+.my__navMenu--md {display: none; }
+
+.my__navLink {text-decoration: none; color: white;}
+.my__navLink:hover {color: rgb(255, 255, 255);}
+
+.my__navHamburger:hover ~ .my__navMenu,
+.my__navMenu:hover{display: block;}
+
+
+@media (min-width: 992px) {
+    .my__navHamburger i {display: none;}
+    .my__navMenu--md {display: block;}
+    .my__navMenu {display: none;}
+}
