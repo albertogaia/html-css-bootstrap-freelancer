@@ -80,16 +80,16 @@ footer {color: white;}
 
 /* DEBUG ZONE */
 
-/* .debug .container {height: 100%;}
+.debug .container {height: 100%;}
 .debug #nav__logo {background-color: orange; border: 1px solid black;}
 .debug #nav__links {background-color: grey; border: 1px solid black;}
-.debug #jumbotron {min-height: 20vh; } */
-/* .debug #my__avatar {background:indigo;} */
-/* .debug #my__description {width: 100%; height: 30px; background-color: lightgray;} */
-/* .debug .portfolio__single {border: 1px solid black;}
-.debug .portfolio__single img {background-color: lightgreen; } */
-/* .debug #about .col-12 {background: tomato; border: 1px solid black} */
-/* .debug .my__form {height: 500px; background: lightpink;} */
-/* .debug .my__icons {background: tomato;}
+.debug #jumbotron {min-height: 20vh; }
+.debug #my__avatar {background:indigo;}
+.debug #my__description {width: 100%; height: 30px; background-color: lightgray;}
+.debug .portfolio__single {border: 1px solid black;}
+.debug .portfolio__single img {background-color: lightgreen; }
+.debug #about .col-12 {background: tomato; border: 1px solid black} 
+.debug .my__form {height: 500px; background: lightpink;}
+.debug .my__icons {background: tomato;}
 .debug .my__footerTop .col-12{background: violet; border: 1px solid black;}
-.debug .my__footerBottom .col {background: violet; border: 1px solid black;}  */
+.debug .my__footerBottom .col {background: violet; border: 1px solid black;} 
