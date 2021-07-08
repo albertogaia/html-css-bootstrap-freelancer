@@ -1,6 +1,6 @@
 /* CSS BONUS */
 
-header {height: 80px;}
+header {height: 56px;}
 .my__navMenu {display: none; width: 100%; right: 0; background: #2C3E50;}
 .my__navMenu .my__navLink {display: block; text-align: end;}
 .my__navMenu .my__navLink:hover {background: #3e4f61;;}
