@@ -27,7 +27,7 @@ header {background: #2C3E50;}
 
 /* JUMBOTRON -----------------------  */
 
-#my__avatar {width: 200px; height: 200px; border-radius: 50%; overflow: hidden;}
+#my__avatar {width: 200px; border-radius: 50%; overflow: hidden;}
 
 #about .container,
 #contact .container {width: 80%;}
@@ -39,7 +39,7 @@ header {background: #2C3E50;}
 
 /* -- PORTFOLIO ----------------------- */
 
-.portfolio__single {cursor: pointer; aspect-ratio: 3 / 2;}
+.portfolio__single {cursor: pointer;}
 
 .portfolio__single img {width: 100%; height: 100%; border-radius: 20px; overflow: hidden;}
 
@@ -84,10 +84,10 @@ footer {color: white;}
 .debug #nav__logo {background-color: orange; border: 1px solid black;}
 .debug #nav__links {background-color: grey; border: 1px solid black;}
 .debug #jumbotron {min-height: 20vh; } */
-.debug #my__avatar {background:indigo;}
+/* .debug #my__avatar {background:indigo;} */
 /* .debug #my__description {width: 100%; height: 30px; background-color: lightgray;} */
-.debug .portfolio__single {border: 1px solid black;}
-.debug .portfolio__single img {background-color: lightgreen; }
+/* .debug .portfolio__single {border: 1px solid black;}
+.debug .portfolio__single img {background-color: lightgreen; } */
 /* .debug #about .col-12 {background: tomato; border: 1px solid black} */
 /* .debug .my__form {height: 500px; background: lightpink;} */
 /* .debug .my__icons {background: tomato;}
