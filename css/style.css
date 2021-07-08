@@ -20,7 +20,32 @@ section h2 {text-transform: uppercase;}
 .my__hr {height: 5px; border-radius: 10px;}
 .my__credits {color:limegreen; cursor:pointer;}
 
+.my__star2--black::after, .my__star2--black::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30%;
+    min-width: 60px;
+    background: black;
+    margin: 0 10px;
+    border-radius: 10px;
+}
 
+.my__star2, .my__star2--black {
+    width: 40%;
+    margin: 15px auto;
+}
+
+.my__star2::after, .my__star2::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 30%;
+    min-width: 60px;
+    background: white;
+    margin: 0 10px;
+    border-radius: 10px;
+}
 
 /* HEADER */
 
